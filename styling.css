@@ -1,0 +1,59 @@
+body{
+background-image: url(http://images.comunidades.net/rec/recantodalivita/CARNAVAL_CONFETES24.gif);
+}
+
+.kaart{
+  width:600px;
+  height:700px;
+  background-color:LIGHTCYAN;
+  margin: -10% 30% 0% 30%;
+  border-radius:10px;
+  padding-top:20px;
+  transition: all 2s ease-in;
+  opacity:0.8;
+}
+img{
+  width:200px;
+  height:200px;
+  maring-top:20px;
+}
+
+.tekst1{
+  font-size:4em;
+  text-align:center;
+  margin-top:50px;
+  transition: all 2s ease-in;
+}.tekst2{
+  font-size:3em;
+  text-align:center;
+  margin-top:20px;
+  transition: all 2s ease-in;
+}.tekst3{
+  font-size:2.5em;
+  text-align:center;
+  margin-top:20px;
+  transition: all 2s ease-in;
+}.fotoindiv{
+  margin-left:65px;
+  transition: all 2s ease-in;
+}.fotoindiv2{
+  width:100px;
+  height:100px;
+  margin-left:45px;
+}
+.tekst1:hover{
+  transform:scale(1.4);
+  color:blue;
+}.tekst2:hover{
+  transform:scale(1.4);
+  color:red;
+}.tekst3:hover{
+  transform:scale(1.4);
+  color:blueviolet;
+}.fotoindiv:hover{
+  background-color:lightcoral;
+}
+.kaart:hover{
+  transform: rotatey(360deg);
+  background-color:ROYALBLUE;
+}
